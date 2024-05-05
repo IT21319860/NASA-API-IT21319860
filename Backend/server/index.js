@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import userRoute from './routes/user.route.js';
 import authRoute  from './routes/auth.route.js';
 import cookieParser from 'cookie-parser';
+import cors from 'cors';
 
 
 
@@ -20,6 +21,11 @@ mongoose.connect(
 
 });
 const app = express();
+// Allow requests from specific origin(s)
+//backend will not approve requests from frontend without this 
+app.use(cors({
+    origin: 'https://euphonious-sundae-2b7f85.netlify.app/'
+  }));
 app.use(express.json());
 app.use(cookieParser());
 app.listen(3000, () =>{
