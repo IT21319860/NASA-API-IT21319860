@@ -7,7 +7,7 @@ export default function HeroSection() {
       <section className="bg-hero-pattern3 bg-no-repeat bg-cover bg-fixed bg-clip-border bg-origin-padding h-64 dark:bg-gray-900">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="animate-fade-right animate-once animate-once max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl blue-700 dark:text-white">
+            <h1 className="animate-fade-right animate-once animate-once max-w-2xl mb-4 text-4xl font-extrabold text-white-600 tracking-tight leading-none md:text-5xl xl:text-6xl blue-700 dark:text-white">
              The NASA
             </h1>
             <p className="animate-fade-right animate-once max-w-7xl mb-6 font-bold text-white-600 lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400">
